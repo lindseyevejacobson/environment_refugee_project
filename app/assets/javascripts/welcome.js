@@ -27,7 +27,7 @@ $(function() {
   '<p>In 2012, Hurricane Sandy rocked the shores of New York and New Jersey. Rockaway Beach was one of the places hit the hardest. Rockaway113 shows some of the Environmental Refugees devastated by Superstorm Sandy.</p>'+
   '</div>'+
   '<div class="video-container">' +
-  '<iframe src="http://player.vimeo.com/video/86156760?title=0&amp;byline=0&amp;portrait=0&amp;color=999999" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'+
+  '<iframe src="//player.vimeo.com/video/86156760?title=0&amp;byline=0&amp;portrait=0&amp;color=999999" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'+
   '</div>'+
   '</div>'
   var contentString = html;
