@@ -1,7 +1,7 @@
 <div class='infowindow'>
   <h1><%= location['title'] %></h1>
   <div class='infowindow-body'>
-    <p><%= location['desc'] %></p>
+    <p><%= location['desc'].html_safe %></p>
   </div>
   <div class='video-container'>
     <iframe src='//player.vimeo.com/video/<%= location['vimeo_id']%>?title=0&amp;byline=0&amp;portrait=0&amp;color=999999' width='450' height='253' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
