@@ -1,7 +1,17 @@
 $(function() {
+
+  var stylesArray = [{"featureType":"water","stylers":[{"color":"#6ebeab"}]},
+                    {"featureType":"road","stylers":[{"color":"#b5a15b"}]},
+                    {"featureType": "road","stylers": [ { "visibility": "off" } ] },
+                    {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f9f9f9"}]},
+                    {"featureType":"landscape","elementType":"labels.text.fill","stylers":[{"color":"#808080"}]},
+                    {"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#808080"}]},
+                    {"featureType":"landscape.natural.terrain","stylers":[{"color":"#d0d0d0"}]},{}]
+
   var mapOptions = {
     center: { lat: 40.591487, lng: -73.804671},
-    zoom: 12
+    zoom: 12,
+    styles: stylesArray
   };
   var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
