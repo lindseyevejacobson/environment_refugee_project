@@ -18,7 +18,14 @@ class Location
          "lng"      => 89.816259,
          "title"    => "Internuncio: Abul's Story",
          "desc"     => "Approximately 21% of the population, (31.5 million people), live in the coastal regions, these extremely vulnerable people are already noticing the changes in the environment around them. High tides now regularly inundate homes and the land is becoming salty. Fresh water is becoming scarce and the intensity of land erosion is increasing.",
+         "vimeo_id" => "0z9uQcw24Os"},
+
+       {"lat"      => 22.00000,
+         "lng"      => 83.333333,
+         "title"    => "'s Story",
+         "desc"     => "Approximately 21% of the population, (31.5 million people), live in the coastal regions, these extremely vulnerable people are already noticing the changes in the environment around them. High tides now regularly inundate homes and the land is becoming salty. Fresh water is becoming scarce and the intensity of land erosion is increasing.",
          "vimeo_id" => "0z9uQcw24Os"}
+
 
 
     ]
