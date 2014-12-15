@@ -23,6 +23,7 @@ $(function() {
     });
 
     var infoWindow = new google.maps.InfoWindow();
+
     var contentString<%= index %> = "<%= ApplicationController.new.render_to_string(:partial => 'welcome/infowindow', :layout => false, :locals => {:location => location}).squish %>"
 
       google.maps.event.addListener(marker<%= index %>, 'click', function() {
