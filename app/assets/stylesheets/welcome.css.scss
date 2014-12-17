@@ -93,7 +93,7 @@ h1, h2 {
   letter-spacing: -.03em;
 }
 
-#title {margin-top: 170px;}
+#title {font-size: 60px;}
 
 .container{
   padding: 0;
@@ -121,5 +121,6 @@ h1, h2 {
 .content-block { display: none;}
 .content-block.active { display: block;}
 
-#about-content {padding-top: 150px;}
-#contact-content {padding-top: 150px;}
+#home-content {padding: 150px 5% 0 5%;}
+#about-content {padding: 150px 5% 0 5%;}
+#contact-content {padding: 150px 5% 0 5%;}
