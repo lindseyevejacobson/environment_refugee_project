@@ -3,6 +3,7 @@ $(function() {
     $('.navbar').addClass('top-nav-collapse')
     $('.content-block').removeClass('active')
     $('#' + $(this).attr('data-target')).addClass('active')
+    google.maps.event.trigger(map, 'resize')
     return false
   })
 

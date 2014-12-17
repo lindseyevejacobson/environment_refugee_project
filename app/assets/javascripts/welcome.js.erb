@@ -13,7 +13,8 @@ $(function() {
     zoom: 2,
     styles: stylesArray
   };
-  var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+  map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
   <% Location.all.each_with_index do |location, index| %>
 
