@@ -17,16 +17,21 @@ class Location
        {"lat"      => 22.212851,
          "lng"      => 89.816259,
          "title"    => "Internuncio: Abul's Story",
-         "desc"     => "Approximately 21% of the population, (31.5 million people), live in the coastal regions, these extremely vulnerable people are already noticing the changes in the environment around them. High tides now regularly inundate homes and the land is becoming salty. Fresh water is becoming scarce and the intensity of land erosion is increasing.",
+         "desc"     => "Scientists predict 17% of Bangladesh's land is will be submerged in the next 40 years, displacing 18 million people.",
          "youtube_id" => "0z9uQcw24Os"},
 
        {"lat"      => 24.00,
          "lng"      => 91.00,
          "title"    => "Internuncio: Mohan's Story",
-         "desc"     => "Approximately 21% of the population, (31.5 million people), live in the coastal regions, these extremely vulnerable people are already noticing the changes in the environment around them. High tides now regularly inundate homes and the land is becoming salty. Fresh water is becoming scarce and the intensity of land erosion is increasing.",
+         "desc"     => "Scientists predict 17% of Bangladesh's land is will be submerged in the next 40 years, displacing 18 million people.",
          "youtube_id" => "V82v8_PZkYQ"}
 
-    ]
+       {"lat"      => 18.5579893,
+         "lng"      => -72.3340737,
+         "title"    => "2010 Haitian Earthquake",
+         "desc"     => "On January 12, 2010 a 7.0 Mw Earthquake hit Haiti, right outside of the capital, Port-au-Prince. The quake left the country in ruins and hundreds of people homeless and in desperate need of medical attention. Without a stable government, many of the Haitian people fled the country.",
+         "youtube_id" => "5CS0I85QwIs"}
+  ]
 
   end
 end
