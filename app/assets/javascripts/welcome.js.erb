@@ -20,7 +20,7 @@ $(function() {
 
   <% Location.all.each_with_index do |location, index| %>
 //add my marker bug//
-
+//add it please//
     var marker<%= index %> = new google.maps.Marker({
       position:  new google.maps.LatLng( <%= location['lat'] %>, <%= location['lng'] %>),
       map: map,

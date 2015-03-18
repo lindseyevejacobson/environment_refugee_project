@@ -24,7 +24,7 @@ class Location
          "lng"      => 91.00,
          "title"    => "Internuncio: Mohan's Story",
          "desc"     => "Scientists predict 17% of Bangladesh's land is will be submerged in the next 40 years, displacing 18 million people.",
-         "youtube_id" => "V82v8_PZkYQ"}
+         "youtube_id" => "V82v8_PZkYQ"},
 
        {"lat"      => 18.5579893,
          "lng"      => -72.3340737,
