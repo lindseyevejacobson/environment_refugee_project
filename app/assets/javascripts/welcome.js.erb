@@ -19,7 +19,8 @@ $(function() {
   map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
   <% Location.all.each_with_index do |location, index| %>
-//add my marker bug//
+
+//wer//
 
     var marker<%= index %> = new google.maps.Marker({
       position:  new google.maps.LatLng( <%= location['lat'] %>, <%= location['lng'] %>),
