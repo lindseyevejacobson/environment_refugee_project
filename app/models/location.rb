@@ -78,8 +78,8 @@ class Location
          "lng"      => 168.3000,
          "title"    => "Cyclone Pam",
          "desc"     => "Cyclone Pam is a Category 5 severe Tropical Syclone currently slamming the coasts of Vanuatu and Tuvalu.",
-         "youtube_id" => "krK51ERx_lg"}
-]
+         "youtube_id" => "krK51ERx_lg"}.
+      ]
 
   end
 end
