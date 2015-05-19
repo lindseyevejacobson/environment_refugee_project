@@ -41,7 +41,7 @@ class Location
        {"lat"      => -17.8639,
          "lng"      => 31.0297,
          "title"    => "Drought in Zimbabwe",
-         "desc"     => "Mis-managed farm lands after the UK stopped giving money to Zimbabwe coupled with drought has lead to a mass exodus to South Africa and Botswana. Once the bread basket of Africa, the country is now dubbed a 'basket case.'",
+         "desc"     => "Mis-managed farm lands after the UK stopped giving money to Zimbabwe coupled with drought has lead to a mass exodus to South Africa and Botswana. Once the bread basket of Africa, the country is now dubbed a 'basket case.' ",
          "youtube_id" => "0HkD62WZSzI"},
 
        {"lat"      => -8.5000,
@@ -78,7 +78,8 @@ class Location
          "lng"      => 168.3000,
          "title"    => "Cyclone Pam",
          "desc"     => "Cyclone Pam is a Category 5 severe Tropical Syclone currently slamming the coasts of Vanuatu and Tuvalu.",
-         "youtube_id" => "krK51ERx_lg"}.
+         "youtube_id" => "krK51ERx_lg"},
+         
       ]
 
   end
