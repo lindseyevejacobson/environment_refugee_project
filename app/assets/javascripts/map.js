@@ -31,4 +31,4 @@ $(function() {
 //       infoWindow.setContent(contentString<%#= index %>);
 //       infoWindow.open(map,marker<%#= index %>);
 //     });
-// });
+});
