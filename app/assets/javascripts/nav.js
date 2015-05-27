@@ -4,7 +4,7 @@ nav = {
       $('.navbar').addClass('top-nav-collapse')
       $('.content-block').removeClass('active')
       $('#' + $(this).attr('data-target')).addClass('active')
-      // google.maps.event.trigger(map, 'resize')
+      google.maps.event.trigger(googleMap, 'resize')
       return false
     })
 

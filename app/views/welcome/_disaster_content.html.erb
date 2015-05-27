@@ -1,0 +1,33 @@
+
+<!-- video_type: "YouTube"
+video_url: undefined -->
+
+<script id="disaster-show" type="text/template">
+  <a href="#" id="close-overlay">&times</a>
+  <h1 id="d-title">{{title}}</h1>
+  <p id="d-description">{{description}}</p>
+  <p id="d-disaster-types">{{disaster_types}}</p>
+  <p id="d-dates">{{dates}}</p>
+  <p id="d-location">{{location}}</p>
+  <p id="d-by-the-numbers">By the Numbers</p>
+
+  {{#displacements}}
+    <p id="d-displacements">{{displacements}}</p>
+  {{/displacements}}
+
+  {{#fatalities}}
+    <p id="d-fatalities">{{fatalities}}</p>
+  {{/fatalities}}
+
+  {{#financial_burden}}
+    <p id="d-financial-burden">{{financial_burden}}</p>
+  {{/financial_burden}}
+
+  {{#news}}
+    <a href="{{link}}" target="_blank">{{title}}</a>
+  {{/news}}
+
+  <!-- <iframe src='//player.vimeo.com/video/VIMEO_ID?title=0&amp;byline=0&amp;portrait=0&amp;color=999999' width='450' height='253' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+  <!-- <iframe width='450' height='253' src='//www.youtube.com/embed/YOUTUBE_ID' frameborder='0' allowfullscreen></iframe> -->
+
+</script>

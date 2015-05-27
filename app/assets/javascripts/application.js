@@ -18,6 +18,7 @@
 //= require bootstrap-sprockets
 
 $(function() {
-  nav.init()
+  nav.init();
+  mapInitializer.init();
 
 })

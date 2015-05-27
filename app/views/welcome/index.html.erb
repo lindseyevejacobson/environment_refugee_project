@@ -1,30 +1,4 @@
-<!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-      <i class="fa fa-bars"></i>
-    </button>
-    <a class="navbar-brand page-scroll" id="home-button" href="#">
-      <i class="fa fa-play-circle"></i>  The Climate Migrant Project
-    </a>
-  </div>
-
-  <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-    <ul class="nav navbar-nav">
-      <li>
-        <a class="page-scroll" href="#" data-target="about-content">Learn</a>
-      </li>
-      <li>
-        <a class="page-scroll" href="#" data-target="map-content">See the Map</a>
-      </li>
-      <li>
-        <a class="page-scroll" href="#" data-target="contact-content">Get Involved</a>
-      </li>
-    </ul>
-  </div>
-  <!-- /.navbar-collapse -->
-</nav>
-
+<%= render partial: "nav" %>
 <div id="home-content" class="content-block active">
   <h1 id="title">The Climate Migrant Project</h1>
   <h2>We’re working hard to understand Climate Migration and help those in need. Email lindseyevejacobson@gmail.com to join the movement.</h2>
@@ -32,15 +6,21 @@
 
 <div id="about-content" class="content-block">
   <h3>By 2020, 50 million people will be displaced because of a drastic change in their environment. ClimateMigrants.com is building a movement to track and assist these people. We believe that with preparation and organization, Climate Migration can become an opportunity for cross cultural exploration and problem solving, instead of disaster relief.
-
-ClimateMigrants.com seeks to add a human face to the affects of Climate Change. By tracking and researching the causes and effects of Climate Migration, ClimateMigrants.com will provide a tool to help policy makers, educatiors and global citizens better understand and prepare for drastic changes.
-
-ClimateMigrants.com scours the internet for visual and personal stories of climate migrants. Our first step is to track and catalogue all of the existing research. Next, we will start generating new stories and filling in the current holes in the research.
+      ClimateMigrants.com seeks to add a human face to the affects of Climate Change. By tracking and researching the causes and effects of Climate Migration, ClimateMigrants.com will provide a tool to help policy makers, educatiors and global citizens better understand and prepare for drastic changes.
+      ClimateMigrants.com scours the internet for visual and personal stories of climate migrants. Our first step is to track and catalogue all of the existing research. Next, we will start generating new stories and filling in the current holes in the research.
  </h3>
 </div>
 
 <div id="map-content" class="content-block">
   <div id="map-canvas"></div>
+  <div id="map-overlay">
+    <div id="disaster-content-box">
+      <div id="inner-dcb">
+
+      </div>
+    </div>
+  </div>
+  <%= render partial: "disaster_content" %>
 </div>
 
 
