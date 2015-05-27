@@ -11,9 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150527184640) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "disasters", force: true do |t|
+    t.string   "title"
+    t.string   "location"
+    t.float    "lat"
+    t.float    "long"
+    t.text     "disaster_types",   default: [],         array: true
+    t.text     "description"
+    t.text     "dates"
+    t.text     "fatalities"
+    t.text     "displacements"
+    t.text     "financial_burden"
+    t.string   "video_url"
+    t.string   "video_type"
+    t.text     "news",             default: "--- {}\n"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

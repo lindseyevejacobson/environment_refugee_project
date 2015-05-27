@@ -16,24 +16,19 @@ $(function() {
     styles: stylesArray
   };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
-
-  <% Location.all.each_with_index do |location, index| %>
-
-//wer//
-
-    var marker<%= index %> = new google.maps.Marker({
-      position:  new google.maps.LatLng( <%= location['lat'] %>, <%= location['lng'] %>),
-      map: map,
-    });
-
-    var infoWindow = new google.maps.InfoWindow();
-
-    var contentString<%= index %> = "<%= ApplicationController.new.render_to_string(:partial => 'welcome/infowindow', :layout => false, :locals => {:location => location}).squish %>"
-
-      google.maps.event.addListener(marker<%= index %>, 'click', function() {
-      infoWindow.setContent(contentString<%= index %>);
-      infoWindow.open(map,marker<%= index %>);
-    });
-  <% end %>
-});
+//   map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+//
+//
+//     var marker<%#= index %> = new google.maps.Marker({
+//       position:  new google.maps.LatLng( <%#= location['lat'] %>, <%#= location['lng'] %>),
+//       map: map,
+//     });
+//
+//     var infoWindow = new google.maps.InfoWindow();
+//
+//
+//       google.maps.event.addListener(marker<%#= index %>, 'click', function() {
+//       infoWindow.setContent(contentString<%#= index %>);
+//       infoWindow.open(map,marker<%#= index %>);
+//     });
+// });
